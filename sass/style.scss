@@ -1,0 +1,234 @@
+@import "variables-mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff") format("woff"),
+    url("../fonts/icomoon/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: $colour-dark;
+}
+/*Navbar*/
+.navbar{
+  background-color: transparent;
+  position: absolute;
+  z-index: 999;
+}
+.navbar-brand{
+  width: auto;
+}
+.navbar-brand img{
+  width: 30%;
+}
+
+/*Carousel*/
+.carousel-item{
+  height: 100vh;
+}
+.carousel-caption{
+  bottom: 37%;
+}
+.carousel-caption h1{
+  font-weight: 800;
+  font-size: 4.5rem;
+  letter-spacing: .1rem;
+}
+.carousel-caption p{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+}
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/*Box Señales Tránsito*/
+.container-signal{
+  background-color: #FAFAFA;
+  padding: 8rem 18rem;
+}
+.container-signal h1{
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.box-signal img{
+  width: 75%;
+}
+.box-signal a{
+  text-decoration: none;
+  text-align: center;
+}
+.card{
+  margin: auto;
+  display: flex;align-items: center;
+  padding: 3rem 0;
+  border-radius: 10px;
+  &:hover{
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+}
+.padding-bottom{
+  padding-bottom: 1.5rem;
+}
+
+/*Seccion Accidentes de transito*/
+.box-transito{
+  background-color: $colour-yellow;
+  padding: 5rem 4rem;
+}
+.box-indicador{
+  width: 37%;
+  font-weight: 700;
+  margin: auto;
+}
+.box-indicador p{
+  text-align: center;
+  margin-bottom: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding: .3rem 0;
+}
+.box-transito h1{
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.box-transito .caption-transito{
+  font-size: 1.3rem;
+  text-align: center;
+}
+.box-transito h5{
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.box-icon img{
+  width: 35%;
+  margin-bottom: .5rem;
+}
+.box-transito hr{
+  margin:  3rem 0;
+}
+.box-transito-02{
+  margin: auto;
+  padding: 0 5rem;
+}
+.box-transito-02 p{
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+::placeholder{
+  font-size: .8rem;
+}
+
+/*Formulario*/
+.btn-send{
+  background-color: $colour-dark-yellow;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: .8rem;
+  width: 100%;
+  font-weight: 600;
+  &:hover{
+    background-color: $colour-yellow;
+  }
+}
+
+/*Seccion Accidentes de trabajo*/
+.indicador-02{
+  width: 15%;
+}
+.container-trabajo{
+  background-color: $colour-dark-grey;
+  padding: 8rem 0;
+}
+.container-trabajo h2, .caption-trabajo{
+  color: white;
+  text-align: center;
+}
+.container-trabajo h2{
+  font-weight: 700;
+  font-size: 2rem;
+  width: 60%;
+  margin: 2rem auto 3.5rem;
+}
+.caption-trabajo{
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/*Seccion Despidos*/
+.box-laboral{
+  background-color: $colour-yellow;
+  padding: 12rem 4rem;
+}
+.box-laboral h1{
+  font-weight: 700;
+  font-size: 2.1rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.box-laboral .caption-transito{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/*Footer*/
+.bg-footer{
+  background-color: $colour-dark-grey;
+  padding: 2rem 0;
+}
+.rrss-footer{
+  text-align: center;padding-bottom: 1rem;
+}
+.rrss-footer a{
+  text-decoration: none;
+  color: $colour-yellow;
+  font-size: 1.4rem;
+  &:hover{
+    color: $colour-dark-yellow;
+  }
+}
+.icon-instagram{
+  padding-right: .5rem;
+}
+.box-two-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-two-footer a{
+  text-decoration: none;
+  color: white;
+  &:hover{
+    color: $colour-yellow;
+  }
+}
+.link-footer-01{
+  font-size: .9rem;
+}
+.link-footer-02{
+  font-size: .7rem;
+  padding: 1rem 0 0;
+}
+
