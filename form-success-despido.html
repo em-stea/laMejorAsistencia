@@ -205,26 +205,29 @@
     <div class="container-fluid" id="despido">
       <div class="row reverse">
         <div class="col-12 col-md-6 box-transito-02">
-          <p>Completá tus datos y nos contactaremos:</p>
+            <p>Completá tus datos y nos contactaremos:</p>
 
-          <!--Form-->
-          <form method="post" action="form-email-despido.php" class="col-12 m-auto">
-            <div class="wrapper-input">
-              <div class="mb-3">
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required/>
-              </div>
-              <div class="mb-3">
-                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
-              </div>
-              <div class="mb-3">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required/>
-              </div>
-              <div class="mb-3">
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
-              </div>
+            <!--Form-->
+            <form method="post" action="form-email-despido.php" class="col-12 m-auto">
+                <div class="wrapper-input">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required/>
+                </div>
+                <div class="mb-3">
+                    <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required/>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                </div>
+                </div>
+                <input type="submit" class="text-center btn-send" name="enviar" />
+            </form>
+            <div class="mail-sent">
+                <p>¡Mail enviado exitosamente!</p>
             </div>
-            <input type="submit" class="text-center btn-send" name="enviar" />
-          </form>
         </div>
 
         <div class="col-12 col-md-6 box-laboral">

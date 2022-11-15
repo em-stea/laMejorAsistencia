@@ -193,6 +193,30 @@
   text-align: center;
 }
 
+.mail-sent{
+  margin-top: 2rem;
+  background-color: #B3DA54;
+  padding: 1.5rem 0;
+  border-radius: 10px;
+}
+.mail-sent p{
+  margin-bottom: 0;
+}
+.mail-sent-02{
+  margin: auto;
+  width: 40%;
+  margin-top: 2rem;
+  background-color: #B3DA54;
+  padding: 1.5rem 0;
+  border-radius: 10px;
+}
+.mail-sent-02 p{
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
 /*Footer*/
 .bg-footer{
   background-color: $colour-dark-grey;

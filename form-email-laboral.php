@@ -31,5 +31,5 @@ mail($email_to, $asunto, utf8_decode($contenido), $header);
 
 //echo "<script>alert('Mensaje enviado con éxito');document.location='$regresar';</script>";
 //echo '<h4>¡Mail enviado exitosamente!</h4>';
-header('Location: ' . 'form-success.html');
+header('Location: ' . 'form-success-laboral.html#laboral');
 
