@@ -1,10 +1,263 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} /*
-body {
-  font-size: 16px;
-  color: #828282;
-  font-family: "Now", sans-serif;
-}*/
+}
+
+@media screen and (max-width: 450px) {
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-caption {
+    bottom: 14%;
+    right: 10%;
+    left: 10%;
+  }
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 50vh;
+  }
+  .carousel-item img {
+    height: 100%;
+  }
+  /*Señales*/
+  .container-signal {
+    padding: 5rem 0;
+  }
+  .container-signal h1 {
+    font-size: 1.8rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  /*Section Accidente de Transito*/
+  .box-transito {
+    padding: 6rem 0.5rem;
+  }
+  .box-transito h1 {
+    font-size: 2.5rem;
+  }
+  .box-indicador {
+    width: 90%;
+  }
+  .box-transito-02 {
+    padding: 4rem 0.5rem;
+  }
+  /*Section Accidente de Trabajo*/
+  .container-trabajo {
+    padding: 6rem 0.5rem;
+  }
+  .container-trabajo h2 {
+    width: auto;
+    font-size: 1.5rem;
+  }
+  /*Section Despido*/
+  .box-laboral {
+    padding: 7rem 0.5rem;
+  }
+  .box-laboral h1 {
+    font-size: 1.5rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 600px) {
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-caption {
+    bottom: 21%;
+    right: 10%;
+    left: 10%;
+  }
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 50vh;
+  }
+  .carousel-item img {
+    height: 100%;
+  }
+  /*Señales*/
+  .container-signal {
+    padding: 5rem 0;
+  }
+  .container-signal h1 {
+    font-size: 2rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .box-icon img {
+    width: 25%;
+  }
+  /*Section Accidente de Transito*/
+  .box-transito {
+    padding: 6rem 0.5rem;
+  }
+  .box-transito h1 {
+    font-size: 2.5rem;
+  }
+  .box-indicador {
+    width: 90%;
+  }
+  .box-transito-02 {
+    padding: 4rem 0.5rem;
+  }
+  /*Section Accidente de Trabajo*/
+  .container-trabajo {
+    padding: 6rem 0.5rem;
+  }
+  .container-trabajo h2 {
+    width: auto;
+    font-size: 1.5rem;
+  }
+  /*Section Despido*/
+  .box-laboral {
+    padding: 7rem 0.5rem;
+  }
+  .box-laboral h1 {
+    font-size: 2rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-caption {
+    bottom: 25%;
+    right: 10%;
+    left: 10%;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 50vh;
+  }
+  .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+  /*Señales*/
+  .container-signal {
+    padding: 5rem 0;
+  }
+  .container-signal h1 {
+    font-size: 2rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  /*Section Accidente de Transito*/
+  .box-transito {
+    padding: 6rem 0.5rem;
+  }
+  .box-transito h1 {
+    font-size: 2.5rem;
+  }
+  .box-indicador {
+    width: 30%;
+  }
+  .box-transito-02 {
+    padding: 4rem 0.5rem;
+  }
+  .box-icon img {
+    width: 15%;
+  }
+  /*Section Accidente de Trabajo*/
+  .container-trabajo {
+    padding: 6rem 0.5rem;
+  }
+  .container-trabajo h2 {
+    width: auto;
+    font-size: 2rem;
+  }
+  /*Section Despido*/
+  .box-laboral {
+    padding: 7rem 0.5rem;
+  }
+  .box-laboral h1 {
+    font-size: 2rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1500px) {
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-caption {
+    bottom: 25%;
+    right: 10%;
+    left: 10%;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 50vh;
+  }
+  .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+  /*Señales*/
+  .container-signal {
+    padding: 5rem 0;
+  }
+  .container-signal h1 {
+    font-size: 2rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .box-icon img {
+    width: 15%;
+  }
+  /*Section Accidente de Transito*/
+  .box-transito {
+    padding: 6rem 0.5rem;
+  }
+  .box-transito h1 {
+    font-size: 2.5rem;
+  }
+  .box-indicador {
+    width: 70%;
+  }
+  .box-transito-02 {
+    padding: 4rem 0.5rem;
+  }
+  .box-icon img {
+    width: 45%;
+  }
+  /*Section Accidente de Trabajo*/
+  .container-trabajo h2 {
+    width: auto;
+  }
+  /*Section Despido*/
+  .box-laboral {
+    padding: 12rem 2rem;
+  }
+}
