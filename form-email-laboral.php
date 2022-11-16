@@ -10,17 +10,17 @@ $email = $_POST['email'];
 $consulta=$_POST['consulta'];
 
 /*guardo los datos en la db*/
-$sql = 'insert into Datos (nombre, telefono, email) values (?, ?, ?)'; //nombres de las columnas de la db
-$sql_params = [$nombre, $email, $telefono];
+$sql = 'insert into Datos (nombre, telefono, email, consulta) values (?, ?, ?, ?)'; //nombres de las columnas de la db
+$sql_params = [$nombre, $telefono, $email, $consulta];
 
 $st = $db->prepare($sql);
 $st->execute($sql_params);
 
 
 /*mail destinatario y contenido a recibir*/
-$email_to = "laboral@lamejorasistencia.org";
-$contenido = "$nombre ha enviado un mensaje desde la web de patyvillamar.com<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $mensaje";
-$asunto = "Consulta desde la Web patyvillamar.com";
+$email_to = "lamejorasistencia.org@gmail.com";
+$contenido = "$nombre ha enviado un mensaje desde la web<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $consulta";
+$asunto = "Consulta desde la Web - Accidentes de Trabajo";
 
 //Cabeceras del correo para que no llegue a spam
 $header = "MIME-Version: 1.0 \r\n";

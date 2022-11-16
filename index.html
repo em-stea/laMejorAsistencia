@@ -152,7 +152,7 @@
           <p>Completá tus datos y nos contactaremos:</p>
 
           <!--Form-->
-          <form method="post" action="form-email.php" class="col-12 m-auto">
+          <form method="post" action="form-email-transito.php" class="col-12 m-auto">
             <div class="wrapper-input">
               <div class="mb-3">
                 <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required/>
@@ -164,7 +164,7 @@
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email" required/>
               </div>
               <div class="mb-3">
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
               </div>
             </div>
             <input type="submit" class="text-center btn-send" name="enviar" />
@@ -194,7 +194,7 @@
               <input type="email" class="form-control" id="email" name="email" placeholder="Email" required/>
             </div>
             <div class="mb-3">
-              <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+              <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
             </div>
           </div>
           <input type="submit" class="text-center btn-send" name="enviar" />
@@ -220,7 +220,7 @@
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email" required/>
               </div>
               <div class="mb-3">
-                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
               </div>
             </div>
             <input type="submit" class="text-center btn-send" name="enviar" />
@@ -303,6 +303,8 @@
         mirror: false, // whether elements should animate out while scrolling past them
         anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
       });
+    </script>
+
     </script>
   </body>
 </html>

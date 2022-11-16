@@ -17,6 +17,8 @@ $db_options = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
 ];
 
+$con = mysqli_connect($db_host, $db_user, $db_pass) or die("No se ha podido conectar al Servidor");
+$db = mysqli_select_db($con, $db_name) or die("Error en conectar a la Base de Datos");
 
 $db_dsn = "mysql:host=$db_host;dbname=$db_name;charset=$db_charset";
 // fin config.php

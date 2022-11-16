@@ -256,3 +256,33 @@
   padding: 1rem 0 0;
 }
 
+
+/*Section Admin*/
+.container-button{
+  background-color: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  height: 65vh;
+}
+.container-button h4{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.container-button hr{
+  width: 80%;
+}
+.container-button .btn-download{
+  background-color: $colour-yellow;
+  padding: 1rem 4rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  &:hover{
+    background-color: $colour-dark-yellow;
+    border: none;
+    color: white;
+  }
+}
