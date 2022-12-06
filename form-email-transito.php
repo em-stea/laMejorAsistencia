@@ -1,6 +1,7 @@
 <?php 
 include 'config.php';
 
+
 $db = new PDO($db_dsn, $db_user, $db_pass, $db_options);
 
 /*recibo los datos del formulario*/
@@ -8,10 +9,11 @@ $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono'];
 $email = $_POST['email'];
 $consulta=$_POST['consulta'];
+$fecha=$_POST['fecha'];
 
 /*guardo los datos en la db*/
-$sql = 'insert into Datos (nombre, telefono, email, consulta) values (?, ?, ?, ?)'; //nombres de las columnas de la db
-$sql_params = [$nombre, $telefono, $email, $consulta];
+$sql = 'insert into Datos (nombre, telefono, email, consulta, fecha) values (?, ?, ?, ?, ?)'; //nombres de las columnas de la db
+$sql_params = [$nombre, $telefono, $email, $consulta, $fecha];
 
 $st = $db->prepare($sql);
 $st->execute($sql_params);

@@ -171,6 +171,13 @@
         <div class="col-12 col-md-6 box-transito-02">
           <p>Completá tus datos y nos contactaremos:</p>
 
+          <!--fecha-->
+          <?php 
+          date_default_timezone_set('America/Argentina');
+          $fecha_actual = date("Y-m-d");
+          ?>
+          <!--fin fecha-->
+
           <!--Form-->
           <form method="post" action="form-email-transito.php" class="col-12 m-auto">
             <div class="wrapper-input">
@@ -186,6 +193,9 @@
               <div class="mb-3">
                 <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
               </div>
+              <label class="d-none">
+                <input type="datetime" name="fecha" value="<?= $fecha_actual?>">
+              </label>
             </div>
             <input type="submit" class="text-center btn-send" name="enviar" />
           </form>
@@ -216,6 +226,9 @@
             <div class="mb-3">
               <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
             </div>
+            <label class="d-none">
+                <input type="datetime" name="fecha" value="<?= $fecha_actual?>">
+            </label>
           </div>
           <input type="submit" class="text-center btn-send" name="enviar" />
         </form>
@@ -242,6 +255,9 @@
               <div class="mb-3">
                 <textarea class="form-control" id="consulta" name="consulta" rows="3" placeholder="Consulta" required></textarea>
               </div>
+              <label class="d-none">
+                <input type="datetime" name="fecha" value="<?= $fecha_actual?>">
+              </label>
             </div>
             <input type="submit" class="text-center btn-send" name="enviar" />
           </form>

@@ -35,6 +35,7 @@ $DataDB = mysqli_query($con, $listDB);
     <th>Telefono</th>
     <th>Email</th>
     <th>Consulta</th>
+    <th>Fecha</th>
     </tr>
 </thead>
 <?php
@@ -48,6 +49,7 @@ $i =1;
             <td><?php echo $varTable['Telefono'] ; ?></td>
             <td><?php echo $varTable['Email'] ; ?></td>
             <td><?php echo $varTable['Consulta'] ; ?></td>
+            <td><?php echo $varTable['Fecha'] ; ?></td>
         </tr>
     </tbody>
     
