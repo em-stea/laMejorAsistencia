@@ -10,7 +10,7 @@
     height: auto;
   }
   .carousel-caption{
-    bottom: 14%;
+    bottom: 32%;
     right: 10%;
     left: 10%;
   }
@@ -23,8 +23,19 @@
   .carousel-item{
     height: 50vh;
   }
-  .carousel-item img{
-    height: 100%;
+
+
+  /*Quienes Somos*/
+  .who{
+    margin: 0 0 4rem 0;
+    padding: 0;
+  }
+  .who p{
+    width: 90%;
+  }
+  .who img{
+    width: 25%;
+    margin-bottom: 1rem;
   }
 
   /*Señales*/
@@ -51,6 +62,17 @@
   .box-transito-02{
     padding: 4rem .5rem;
   }
+  .box-icon{
+    flex-direction: column;
+  }
+  .box-icon div{
+    width: 90%;
+    margin: .7rem auto;
+  }
+  .box-icon .text-center p{
+    width: 80%;
+    margin: auto;
+  }
 
   /*Section Accidente de Trabajo*/
   .container-trabajo{
@@ -60,6 +82,13 @@
     width: auto;
     font-size: 1.5rem;
   }
+  .box-icon-accidente{
+    flex-wrap: wrap;
+  }
+  .box-icon-accidente div{
+    width: 90%;
+    margin: 1rem auto;
+  }
 
   /*Section Despido*/
   .box-laboral{
@@ -67,9 +96,22 @@
   }
   .box-laboral h1{
     font-size: 1.5rem;
+    padding: 0 0.5rem;
   }
   .reverse{
     flex-direction: column-reverse;
+  }
+  .box-item-laboral div{
+    width: 47%;
+  }
+
+  /*Botones*/
+  .box-flex-button{
+    flex-direction: column;
+  }
+  .box-button{
+    width: auto;
+    margin-bottom: 1rem;
   }
 }
 
@@ -78,7 +120,7 @@
     height: auto;
   }
   .carousel-caption{
-    bottom: 21%;
+    bottom: 31%;
     right: 10%;
     left: 10%;
   }
@@ -94,18 +136,29 @@
   .carousel-item img{
     height: 100%;
   }
+
+  /*Quienes Somos*/
+  .who{
+    margin: 0 0 4rem 0;
+    padding: 0;
+  }
+  .who p{
+    width: 90%;
+  }
+  .who img{
+    width: 25%;
+    margin-bottom: 1rem;
+  }
+
   /*Señales*/
   .container-signal{
     padding: 5rem 0;
   }
   .container-signal h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .card{
     margin-bottom: 1rem;
-  }
-  .box-icon img{
-    width: 25%;
   }
 
   /*Section Accidente de Transito*/
@@ -121,6 +174,21 @@
   .box-transito-02{
     padding: 4rem .5rem;
   }
+  .box-transito h5{
+    width: 90%;
+    margin: 0 auto 1rem;
+  }
+  .box-icon{
+    flex-direction: column;
+  }
+  .box-icon div{
+    width: 90%;
+    margin: .7rem auto;
+  }
+  .box-icon .text-center p{
+    width: 80%;
+    margin: auto;
+  }
 
   /*Section Accidente de Trabajo*/
   .container-trabajo{
@@ -130,16 +198,36 @@
     width: auto;
     font-size: 1.5rem;
   }
+  .box-icon-accidente{
+    flex-wrap: wrap;
+  }
+  .box-icon-accidente div{
+    width: 90%;
+    margin: 1rem auto;
+  }
 
   /*Section Despido*/
   .box-laboral{
     padding: 7rem .5rem;
   }
   .box-laboral h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
   }
   .reverse{
     flex-direction: column-reverse;
+  }
+  .box-item-laboral div{
+    width: 47%;
+  }
+
+  /*Botones*/
+  .box-flex-button{
+    flex-direction: column;
+  }
+  .box-button{
+    width: auto;
+    margin-bottom: 1rem;
   }
 }
 
@@ -162,15 +250,28 @@
     height: 50vh;
   }
   .carousel-item img{
-    height: auto;
+    height: 100%;
     width: 100%;
   }
+   /*Quienes Somos*/
+   .who{
+    margin: 0 0 4rem 0;
+    padding: 0;
+  }
+  .who p{
+    width: 90%;
+  }
+  .who img{
+    width: 20%;
+    margin-bottom: 1rem;
+  }
+
   /*Señales*/
   .container-signal{
     padding: 5rem 0;
   }
   .container-signal h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .card{
     margin-bottom: 1rem;
@@ -184,13 +285,25 @@
     font-size: 2.5rem;
   }
   .box-indicador{
-    width: 30%;
+    width: 90%;
   }
   .box-transito-02{
     padding: 4rem .5rem;
   }
-  .box-icon img{
-    width: 15%;
+  .box-transito h5{
+    width: 90%;
+    margin: 0 auto 1rem;
+  }
+  .box-icon{
+    flex-direction: column;
+  }
+  .box-icon div{
+    width: 90%;
+    margin: .7rem auto;
+  }
+  .box-icon .text-center p{
+    width: 80%;
+    margin: auto;
   }
 
   /*Section Accidente de Trabajo*/
@@ -199,7 +312,14 @@
   }
   .container-trabajo h2{
     width: auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .box-icon-accidente{
+    flex-wrap: wrap;
+  }
+  .box-icon-accidente div{
+    width: 90%;
+    margin: 1rem auto;
   }
 
   /*Section Despido*/
@@ -207,10 +327,23 @@
     padding: 7rem .5rem;
   }
   .box-laboral h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
   }
   .reverse{
     flex-direction: column-reverse;
+  }
+  .box-item-laboral div{
+    width: 47%;
+  }
+
+  /*Botones*/
+  .box-flex-button{
+    flex-direction: column;
+  }
+  .box-button{
+    width: auto;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1500px) {
@@ -274,5 +407,22 @@
   /*Section Despido*/
   .box-laboral{
     padding: 12rem 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  /*Botones*/
+  .box-flex-button{
+    flex-direction: column;
+  }
+  .box-button{
+    width: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .box-button{
+    width: auto;
+    margin-bottom: 1rem;
   }
 }

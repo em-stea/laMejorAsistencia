@@ -83,7 +83,20 @@
     transition: transform 0.2s ease-in-out !important;
   }
 }
+.card-body{
+  padding-bottom: 0;
+}
+.card-body h4{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.card-body p{
+  margin-bottom: 0;
+}
 .padding-bottom{
+  padding-bottom: 2.9rem;
+}
+.padding-bottom-02{
   padding-bottom: 1.5rem;
 }
 
@@ -105,7 +118,7 @@
   padding: .3rem 0;
 }
 .box-transito h1{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 3.5rem;
   text-align: center;
   margin-top: 1.5rem;
@@ -115,13 +128,21 @@
   text-align: center;
 }
 .box-transito h5{
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .box-icon img{
   width: 35%;
   margin-bottom: .5rem;
+}
+.box-icon .text-center p{
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+.box-icon div{
+  width: 30%;
+  margin: 0 .3rem;
 }
 .box-transito hr{
   margin:  3rem 0;
@@ -167,30 +188,97 @@
   text-align: center;
 }
 .container-trabajo h2{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2rem;
   width: 60%;
-  margin: 2rem auto 3.5rem;
+  margin: 2rem auto 1.5rem;
+  color: $colour-yellow;
+}
+.container-trabajo h4{
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.container-trabajo hr{
+  color: white;
+  width: 15%;
+  margin: 0 auto 3rem;
+}
+.box-icon-accidente{
+  padding: 0 2rem;
+  display: flex;
+}
+.box-icon-accidente div{
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .8rem;
+  width: 40%;
+  padding: 1rem 1rem;
+  box-shadow: 3px 0px 5px 5px rgba(0,0,0,0.1);
+  &:hover{
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+}
+.box-icon-accidente div p{
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 600;
+
 }
 .caption-trabajo{
   font-size: 1.2rem;
   margin-bottom: 1.2rem;
+  margin-top: 5rem;
 }
 
 /*Seccion Despidos*/
 .box-laboral{
   background-color: $colour-yellow;
-  padding: 12rem 4rem;
+  padding: 5rem 4rem;
 }
 .box-laboral h1{
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2.1rem;
   text-align: center;
   margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 .box-laboral .caption-transito{
   font-size: 1.3rem;
   text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+.box-laboral hr{
+  margin: 3rem 0;
+}
+.box-laboral h4{
+  font-size: 1.2rem;
+  background-color: white;
+  padding: .7rem .5rem;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: 600;
+  width: 80%;
+  margin: 3rem auto 0;
+}
+.box-item-laboral div{
+  margin: .9rem 0 .1rem 0;
+  width: 50%;
+}
+.box-item-laboral span{
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+}
+.box-item-laboral p{
+  margin-bottom: 7px;
 }
 
 .mail-sent{
@@ -217,13 +305,84 @@
   font-size: 1.3rem;
 }
 
+/*Quienes somos*/
+.who{
+  margin: 3rem 0 7rem 0;
+}
+.who h1{
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.who p{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.who p span{
+  font-weight: 800;
+}
+.who img{
+  width: 6%;
+  margin-top: 3rem;
+}
+
+/*Botones*/
+.bg-button{
+  background-color: #FAFAFA;
+  padding: 6rem 0;
+}
+.box-button{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  width: 25%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem 2rem;
+  box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.1);
+  &:hover{
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+}
+.box-button a{
+  text-decoration: none;
+  color: $colour-dark;
+  &:hover{
+    color: $colour-dark;
+  }
+}
+.box-button span{
+  font-size: 2rem;
+  color: $colour-dark-yellow;
+  margin-bottom: .5rem;
+}
+.box-button .icon-whatsapp{
+  color: #1bd741;
+}
+.box-button h2{
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+  color: $colour-dark-grey;
+}
+.box-button p{
+  margin-bottom: 0;
+}
+
+
+
+
 /*Footer*/
 .bg-footer{
   background-color: $colour-dark-grey;
   padding: 2rem 0;
 }
 .rrss-footer{
-  text-align: center;padding-bottom: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .rrss-footer a{
   text-decoration: none;
