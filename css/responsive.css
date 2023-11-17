@@ -10,18 +10,15 @@
     height: auto;
   }
   .carousel-caption {
-    bottom: 32%;
+    bottom: 50%;
     right: 10%;
     left: 10%;
   }
   .carousel-caption h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .carousel-caption p {
     font-size: 1rem;
-  }
-  .carousel-item {
-    height: 50vh;
   }
   /*Quienes Somos*/
   .who {
@@ -107,23 +104,56 @@
     margin-bottom: 1rem;
   }
 }
+@media screen and (max-width: 760px) {
+  .img-carousel-mobile {
+    width: auto !important;
+  }
+  .btn-contact {
+    width: 80%;
+  }
+  .box-problem h1, .box-problem p, .box-honorarios h1, .box-honorarios p, .box-click h1, .box-card-accidente .title-card-accidente {
+    width: 90%;
+  }
+  .box-container-text {
+    margin: 1rem 0;
+  }
+  .custom-popover {
+    --bs-popover-max-width: 500px;
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: 2rem;
+  }
+  .box-click img {
+    width: 12%;
+  }
+  .box-check-text {
+    margin-bottom: 2rem;
+  }
+  .container-form-accidente {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    width: 40%;
+  }
+  .nav-link, .nav-link.active {
+    text-align: end;
+  }
+}
 @media screen and (min-width: 451px) and (max-width: 600px) {
   .carousel-item {
     height: auto;
   }
   .carousel-caption {
-    bottom: 31%;
+    bottom: 50%;
     right: 10%;
     left: 10%;
   }
   .carousel-caption h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .carousel-caption p {
     font-size: 1rem;
-  }
-  .carousel-item {
-    height: 50vh;
   }
   .carousel-item img {
     height: 100%;
@@ -217,11 +247,7 @@
   }
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
-  .carousel-item {
-    height: auto;
-  }
   .carousel-caption {
-    bottom: 25%;
     right: 10%;
     left: 10%;
   }
@@ -230,9 +256,6 @@
   }
   .carousel-caption p {
     font-size: 1rem;
-  }
-  .carousel-item {
-    height: 50vh;
   }
   .carousel-item img {
     height: 100%;
@@ -340,9 +363,6 @@
   }
   .carousel-caption p {
     font-size: 1rem;
-  }
-  .carousel-item {
-    height: 50vh;
   }
   .carousel-item img {
     height: auto;

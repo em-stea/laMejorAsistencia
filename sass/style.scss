@@ -22,20 +22,38 @@
 }
 /*Navbar*/
 .navbar{
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   z-index: 999;
+  width: 100%;
+  padding: 1rem 2.5rem;;
 }
 .navbar-brand{
-  width: auto;
+  width: 15%;
 }
 .navbar-brand img{
   width: 30%;
+}
+.nav-link, .nav-link.active{
+  color: white !important;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+  flex-grow: 0;
+}
+.nav-link:hover{
+  font-weight: 600;
+}
+.navbar-toggler{
+  background-color: rgba(255,255,255,0.8);
 }
 
 /*Carousel*/
 .carousel-item{
   height: 100vh;
+}
+.carousel-item img{
+  width: 100%;
 }
 .carousel-caption{
   bottom: 37%;
@@ -73,7 +91,7 @@
   text-decoration: none;
   text-align: center;
 }
-.card{
+.card-signal{
   margin: auto;
   display: flex;align-items: center;
   padding: 3rem 0;
@@ -289,6 +307,9 @@
 }
 .mail-sent p{
   margin-bottom: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 .mail-sent-02{
   margin: auto;
@@ -444,4 +465,282 @@
     border: none;
     color: white;
   }
+}
+
+
+
+/*--------------Accidentes de Transito---------------*/
+.img-accidente{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+.center-container {
+  position: relative;
+  height: 100vh;
+}
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-container h1{
+  font-weight: 800;
+  font-size: 4.5rem;
+} 
+.text-container p{
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.box-problem{
+  text-align: center;
+  color: #302F2F;
+  padding: 13rem 0;
+  background-color: #FAFAFA;
+}
+.box-problem h1{
+  font-weight: 800;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.box-problem p{
+  font-size: 1rem;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.text-bold{
+  font-weight: 800;
+}
+.btn-contact{
+  background-color: $colour-dark-yellow;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: .8rem;
+  width: 30%;
+  font-weight: 600;
+  &:hover{
+    background-color: $colour-yellow;
+  }
+}
+.bg-banner-money{
+  background-image: url(../img/banner-dinero.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 4rem 0;
+}
+.bg-banner-money .col-12 img{
+  width: 20%;
+  margin-bottom: 1.5rem;
+}
+.bg-banner-money .col-12 p{
+  font-size: 1.5rem;
+}
+
+/*-----------Button Whatsapp-----------*/
+.btn-wsp{
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  line-height: 79px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+  text-decoration: none;
+  z-index: 100;
+  animation: 5s infinite beat;
+  &:hover{
+    background-color: white;
+    color: #0df053;
+  }
+}
+.btn-wsp i{
+  color: white;
+  padding: 1.4rem;
+  &:hover{
+    color: #0df053;
+  }
+}
+
+@keyframes beat{
+  0%{
+    transform: scale(1);
+  }
+  10%{
+    transform: scale(1.1);
+  }
+  20%{
+    transform: scale(1);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  40%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(1);
+  }
+  70%{
+    transform: scale(1.1);
+  }
+  80%{
+    transform: scale(1);
+  }
+  90%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.box-servicios{
+  background-color: #D6CA01;
+  padding: 13rem 0;
+}
+.box-servicios .row h1{
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+.box-container-text{
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 4rem 3rem;
+  font-size: 1.5rem;
+  margin: 0 .5rem;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  &:hover{
+    transform: scale(1.1) !important;
+    transition: transform 0.5s ease-in-out;
+  }
+}
+.box-container-text a{
+  border: 1px solid black;
+  font-size: 1rem;
+  &:hover{
+    background-color: rgba(0,0,0,0.05);
+  }
+}
+.box-asesoria{
+  padding: 5.2rem 3rem;
+}
+.box-honorarios{
+  text-align: center;
+  color: #302F2F;
+  padding: 13rem 0;
+}
+.box-honorarios h1{
+  font-weight: 800;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.box-honorarios p{
+  font-size: 1.2rem;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.box-cards-select{
+  background-color: $colour-dark-grey;
+  padding: 13rem 0;
+}
+.box-cards-select h1{
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.card-select{
+  border: none;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 20rem !important;
+}
+.card-body-select{
+  padding: 3rem 1.5rem;
+}
+.card-body-select .card-title{
+  font-weight: 800;
+}
+.box-click{
+  padding: 13rem 0;
+}
+.box-click img{
+  width: 5%;
+  margin-bottom: 2rem;
+}
+.box-click h1{
+  font-weight: 800;
+  margin: 0 auto 3rem;
+  width: 50%;
+}
+.box-card-accidente{
+  background-color: $colour-yellow;
+  padding: 13rem 0;
+}
+.box-card-accidente .title-card-accidente{
+  font-weight: 800;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 2rem;
+}
+.box-card-accidente .text-subtitle{
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+.child-box-accidente{
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: left;
+  padding: 5rem 3rem;
+}
+.child-box-accidente img{
+  width: 18%;
+  margin-bottom: 1rem;
+}
+.child-box-accidente h1{
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.child-box-accidente p{
+  font-size: 1.2rem;
+}
+
+.container-section-form{
+  padding: 13rem 0;
+}
+.container-section-form h1{
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.check{
+  margin-right: .5rem;
+}
+.container-form-accidente{
+  padding: 0 5rem;
+}
+.container-form-accidente a{
+  text-decoration: none;
 }
