@@ -159,7 +159,7 @@
         <div class="row">
           <div class="col-12 col-md-4 box-signal">
             <a href="#transito">
-              <div class="card" style="width: 16rem;" data-aos="fade-up" data-aos-duration="900">
+              <div class="card card-signal" style="width: 16rem;" data-aos="fade-up" data-aos-duration="900">
                   <img src="img/traffic-signal-01.webp" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h4 class="card-text">Sufrí un accidente de tránsito</h4>
@@ -170,7 +170,7 @@
           </div>
           <div class="col-12 col-md-4 box-signal">
             <a href="#laboral">
-              <div class="card" style="width: 16rem;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
+              <div class="card card-signal" style="width: 16rem;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
                 <img src="img/traffic-signal-02.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-text">Tuve un accidente laboral</h4>
@@ -181,7 +181,7 @@
           </div>
           <div class="col-12 col-md-4 box-signal">
             <a href="#despido">
-              <div class="card" style="width: 16rem;" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
+              <div class="card card-signal" style="width: 16rem;" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
                 <img src="img/traffic-signal-03.webp" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-text">Me despidieron</h4>
@@ -433,6 +433,10 @@
         </div>
       </div>
     </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=5491173627698" class="btn-wsp" target="_blank">
+        <i class="icon-whatsapp"></i>
+    </a>
 
     <!--Bootstrap JS-->
     <script

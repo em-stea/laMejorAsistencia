@@ -6,11 +6,11 @@
 }
 
 @media screen and (max-width: 450px) {
-  .carousel-item {
+  /*.carousel-item{
     height: auto;
-  }
+  }*/
   .carousel-caption {
-    bottom: 50%;
+    top: 40%;
     right: 10%;
     left: 10%;
   }
@@ -105,6 +105,18 @@
   }
 }
 @media screen and (max-width: 760px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  .navbar-brand img {
+    width: 45%;
+  }
+  .text-container h1 {
+    font-size: 3.5rem;
+  }
+  .text-container p {
+    font-size: 1.3rem;
+  }
   .img-carousel-mobile {
     width: auto !important;
   }
@@ -130,6 +142,15 @@
   }
   .container-form-accidente {
     padding: 0 1rem;
+  }
+  .child-box-accidente {
+    padding: 5rem 1.2rem;
+  }
+  .child-box-accidente img {
+    width: 30%;
+  }
+  .bg-banner-money .col-12 img {
+    width: 25%;
   }
 }
 @media screen and (max-width: 992px) {
