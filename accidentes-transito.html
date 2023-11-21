@@ -139,14 +139,14 @@
                 <img src="img/icon-money-01.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
                 <p class="text-white">Tramitamos tu caso 
                     <br>
-                    <span class="text-bold text-white">SIN GASTOS.</span>
+                    <span class="text-bold text-white">SIN ADELANTO DE HONORARIOS.</span>
                 </p>
             </div>
             <div class="col-12 col-md-6 text-center">
                 <img src="img/icon-money-02.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
                 <p class="text-white">Solo pagás 
                     <br>
-                    <span class="text-bold text-white">cuando cobrás.</span>
+                    <span class="text-bold text-white">CUANDO COBRÁS.</span>
                 </p>
             </div>
         </div>
