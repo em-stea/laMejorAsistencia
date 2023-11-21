@@ -561,6 +561,7 @@
   box-shadow: 0 1px 10px rgba(0,0,0,0.3);
   text-decoration: none;
   z-index: 100;
+  cursor: pointer;
   animation: 5s infinite beat;
   &:hover{
     background-color: white;
