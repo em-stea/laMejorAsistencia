@@ -19,8 +19,7 @@ $st->execute($sql_params);
 
 
 /*mail destinatario y contenido a recibir*/
-/*$email_to = "lamejorasistencia.org@gmail.com";*/
-$email_to = "emilia@telocreo.studio";
+$email_to = "lamejorasistencia.org@gmail.com";
 $contenido = "$nombre ha enviado un mensaje desde la web<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $consulta";
 $asunto = "Consulta desde la Web - Accidentes de Tránsito";
 

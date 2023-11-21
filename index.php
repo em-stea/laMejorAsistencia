@@ -82,40 +82,56 @@
   </head>
   <body>
     <header>
-      <!--Navbar-->
-      <nav class="navbar">
-        <div class="container">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
           <a class="navbar-brand">
             <img src="img/lma-logo.svg" alt="Bootstrap">
           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accidentes-transito.php">Accidentes de Tránsito</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
     <!--Carousel-->
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/carousel-01.webp" class="d-block w-md-100" alt="...">
+        <div class="carousel-item active"  data-bs-interval="34000">
+          <img src="img/carousel-01.webp" class="d-none d-md-block w-md-100" alt="...">
+          <img src="img/carousel-01-responsive.webp" class="d-block d-md-none img-carousel-mobile" alt="...">
           <div class="carousel-caption">
             <h1 class="animate__animated animate__fadeInDown">La mejor asistencia</h1>
             <p>Asesoría en Accidentes de Tránsito y Problemas Laborales</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/carousel-02.webp" class="d-block w-md-100" alt="...">
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/carousel-02.webp" class="d-none d-md-block w-md-100" alt="...">
+          <img src="img/carousel-02-responsive.webp" class="d-block d-md-none img-carousel-mobile" alt="...">
           <div class="carousel-caption">
             <h1>La mejor asistencia</h1>
             <p>Asesoría en Accidentes de Tránsito y Problemas Laborales</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/carousel-03.webp" class="d-block w-md-100" alt="...">
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/carousel-03.webp" class="d-none d-md-block w-md-100" alt="...">
+          <img src="img/carousel-03-responsive.webp" class="d-block d-md-none img-carousel-mobile" alt="...">
           <div class="carousel-caption">
             <h1>La mejor asistencia</h1>
             <p>Asesoría en Accidentes de Tránsito y Problemas Laborales</p>

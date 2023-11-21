@@ -112,6 +112,7 @@
                 <div class="text-container">
                     <h1 class="animate__animated animate__fadeInDown">Asesoría gratuita</h1>
                     <p class="text-white">Expertos en resolución legal</p>
+                    <a class="btn btn-contact mt-5" href="https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?" role="button">¡Contáctanos ahora!</a>
                 </div>
                  <!-- Imagen para dispositivos grandes -->
                  <img src="img/accidente.webp" class=" img-accidente d-none d-md-block" alt="...">
@@ -127,28 +128,26 @@
         <h1 data-aos="fade-down" data-aos-duration="900">¿Te enfrentas a problemas legales tras un accidente automovilístico?</h1>
         <p>¡No te preocupes! Estamos aquí para ofrecerte <span class="text-bold">la mejor asesoría legal</span> con expertos en casos de accidente de tránsito.</p>
         <div>
-            <a class="btn btn-contact" href="https://w.app/LBq4xo" role="button">Contáctanos</a>
+            <a class="btn btn-contact" href="https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?" role="button">Contáctanos</a>
         </div>
     </section>
 
     <!--Banner Dinero-->
     <section class="container-fluid">
         <div class="row bg-banner-money">
-            <div class="row">
-                <div class="col-12 col-md-6 text-center">
-                    <img src="img/icon-money-01.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
-                    <p class="text-white">Tramitamos tu caso 
-                        <br>
-                        <span class="text-bold text-white">SIN GASTOS.</span>
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 text-center">
-                    <img src="img/icon-money-02.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
-                    <p class="text-white">Solo pagás 
-                        <br>
-                        <span class="text-bold text-white">cuando cobrás.</span>
-                    </p>
-                </div>
+            <div class="col-12 col-md-6 text-center">
+                <img src="img/icon-money-01.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
+                <p class="text-white">Tramitamos tu caso 
+                    <br>
+                    <span class="text-bold text-white">SIN GASTOS.</span>
+                </p>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <img src="img/icon-money-02.webp" alt="" data-aos="zoom-in" data-aos-duration="900">
+                <p class="text-white">Solo pagás 
+                    <br>
+                    <span class="text-bold text-white">cuando cobrás.</span>
+                </p>
             </div>
         </div>
     </section>
@@ -164,7 +163,7 @@
                             <br>
                             </span> especializada
                         </p>
-                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="<strong>Contamos con un equipo legal especializado en casos de accidentes de tránsito.</strong> Obtén la orientación legal que necesitas para tomar decisiones informadas sobre tu caso.">Más info</a>
+                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="<strong>Contamos con un equipo legal especializado en casos de accidentes de tránsito.</strong> Obtén la orientación legal que necesitas para tomar decisiones informadas sobre tu caso.">Más info</a>
                     </div>  
                 </div>
                 <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
@@ -172,7 +171,7 @@
                         <p>
                             <span class="text-bold">Asesoría</span>
                         </p>
-                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="<strong>Ofrecemos asesoría SIN CARGO para evaluar la viabilidad de tu caso.</strong> Entendemos la importancia de comprender tus opciones sin compromiso alguno.">Más info</a>
+                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="<strong>Ofrecemos asesoría SIN CARGO para evaluar la viabilidad de tu caso.</strong> Entendemos la importancia de comprender tus opciones sin compromiso alguno.">Más info</a>
                     </div>  
                 </div>
                 <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
@@ -180,7 +179,7 @@
                         <p>Mediación
                             <span class="text-bold"> express</span>
                         </p>
-                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="Si la aseguradora no responde ante tu reclamo, <strong>con este servicio seguro obtendrás respuesta.</strong>">Más info</a>
+                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-custom-class="custom-popover"  data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="Si la aseguradora no responde ante tu reclamo, <strong>con este servicio seguro obtendrás respuesta.</strong>">Más info</a>
                     </div>  
                 </div>
                 <div class="col-12 col-md-3" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
@@ -189,7 +188,7 @@
                             <span class="text-bold">Disponibilidad</span> 
                             24/7
                         </p>
-                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="Comuníquese las 24 horas, 365 días al año, <strong>respuesta inmediata, sin compromiso.</strong>">Más info</a>
+                        <a tabindex="0" class="btn btn-lg" role="button" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-bs-trigger="focus"  data-bs-placement="bottom" data-bs-html="true" data-bs-content="Comuníquese las 24 horas, 365 días al año, <strong>respuesta inmediata, sin compromiso.</strong>">Más info</a>
                     </div>  
                 </div>
             </div>
@@ -203,7 +202,7 @@
         </p>
         <p class="text-bold">Solo pagarás cuando obtengamos la compensación que mereces.</p>
         <div>
-            <a class="btn btn-contact" href="https://w.app/LBq4xo" role="button">¡Contáctanos ahora!</a>
+            <a class="btn btn-contact" href="https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?" role="button">¡Contáctanos ahora!</a>
         </div>
     </section>
 
@@ -213,9 +212,9 @@
         <div class="container">
             <div class="row">
                 <h1 data-aos="fade-down" data-aos-duration="900">¿Por qué elegirnos?</h1>
-                <div class="col-12 col-md-4 d-flex justify-content-end" data-aos="fade-up" data-aos-duration="900">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end" data-aos="fade-up" data-aos-duration="900">
                     <div class="card card-select" style="width: 18rem;">
-                        <img src="/img/card-01.webp" class="card-img-top" alt="...">
+                        <img src="img/card-01.webp" class="card-img-top" alt="...">
                         <div class="card-body card-body-select">
                           <h2 class="card-title text-center">Experiencia</h2>
                           <p class="card-text text-center">Nuestro equipo legal cuenta con una amplia experiencia en casos de accidentes de tránsito.</p>
@@ -224,16 +223,16 @@
                 </div>
                 <div class="col-12 col-md-4 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
                     <div class="card card-select" style="width: 18rem;">
-                        <img src="/img/card-02.webp" class="card-img-top" alt="...">
+                        <img src="img/card-02.webp" class="card-img-top" alt="...">
                         <div class="card-body card-body-select">
                           <h2 class="card-title text-center">Compromiso</h2>
                           <p class="card-text text-center">Estamos comprometidos a brindarte la mejor asistencia legal y luchar por tus derechos.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
                     <div class="card card-select" style="width: 18rem;">
-                        <img src="/img/card-03.webp" class="card-img-top" alt="...">
+                        <img src="img/card-03.webp" class="card-img-top" alt="...">
                         <div class="card-body card-body-select">
                           <h2 class="card-title text-center">Transparencia</h2>
                           <p class="card-text text-center">Te mantenemos informado en cada etapa del proceso para que siempre estés al tanto de tu caso.</p>
@@ -249,7 +248,7 @@
         <img src="img/img-click.webp" alt="">
         <h1 data-aos="fade-down" data-aos-duration="900">¡La Mejor Asistencia Legal está a solo un clic de distancia!</h1>
         <div>
-            <a class="btn btn-contact" href="https://w.app/LBq4xo" role="button">¡Contáctanos ahora!</a>
+            <a class="btn btn-contact" href="https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?" role="button">¡Contáctanos ahora!</a>
         </div>
     </section>
 
@@ -271,7 +270,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6" data-aos="fade-down" data-aos-duration="900" data-aos-delay="200">
+                <div class="col-12 col-md-6 mt-5 mt-md-0" data-aos="fade-down" data-aos-duration="900" data-aos-delay="200">
                     <div class="child-box-accidente">
                         <img src="img/img-card-accidente-02.webp" alt="">
                         <h1>En moto o bicicleta</h1>
@@ -325,6 +324,13 @@
         </div>
     </section>
 
+    <!--fecha-->
+     <?php 
+        date_default_timezone_set('America/Argentina');
+        $fecha_actual = date("Y-m-d");
+    ?>
+    <!--fin fecha-->
+
     <!--Section Form-->
     <section class="container-fluid">
         <div class="row container-section-form">
@@ -337,14 +343,14 @@
                     <span class="icon-check-circle check"></span>
                     <p class="mb-0">Sin adelanto de Honorarios</p>
                 </div>
-                <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center box-check-text">
                     <span class="icon-check-circle check"></span>
-                    <p class="mb-0">Índice de éxito del 95%</p>
+                    <p class="mb-0">Índice de éxito del 98%</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 container-form-accidente">
                 <!--Form-->
-                <form method="post" action="form-email-despido.php" class="col-12 m-auto">
+                <form method="post" action="form-email-accidenteTransito.php" class="col-12 m-auto">
                     <div class="wrapper-input">
                     <div class="mb-3">
                         <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required/>
@@ -364,9 +370,6 @@
                     </div>
                     <input type="submit" class="text-center btn-send" name="enviar" />
                 </form>
-                <div class="mail-sent">
-                    <p>¡Mail enviado exitosamente!</p>
-                </div>
             </div>
         </div>
     </section>
