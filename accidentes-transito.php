@@ -62,6 +62,15 @@
     <!-- Event snippet for Formulario conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
     <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-11418863869/vpEjCLTO0_gYEP2R-MQq', 'event_callback': callback }); return false; } </script>
 
+    
+    <!--Funcion para que corra el atributo en el input del form-->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
   </head>
   <body>
     <header>
@@ -350,7 +359,7 @@
                         <input type="datetime" name="fecha" value="<?= $fecha_actual?>">
                     </label>
                     </div>
-                    <input type="submit" class="text-center btn-send" name="enviar" />
+                    <input type="submit" onclick="enviarEventoGA();" class="text-center btn-send" name="enviar" />
                 </form>
             </div>
         </div>
@@ -382,6 +391,19 @@
     <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5491173627698');" class="btn-wsp" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
+
+
+    <!--Funcion para que corra el atributo en el input del form-->
+    <script>
+        // Función para enviar un evento específico a Google Analytics
+        function enviarEventoGA() {
+        gtag('event', 'conversion', {
+            'send_to': 'GA_MEASUREMENT_ID',
+            'event_category': 'Formulario',
+            'event_label': 'Clic en Enviar'
+        });
+        }
+    </script>
 
     <!--Bootstrap JS-->
     <script
