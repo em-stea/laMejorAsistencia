@@ -393,7 +393,7 @@
         <p>11 7362 7698</p>
       </div>    
       <div class="box-button"  data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
-        <a href="https://wa.link/8u7d5m" target="_blank" class="whatsapp-button">
+        <a href="https://wa.link/weys41" target="_blank" class="whatsapp-button">
           <span class="icon-whatsapp"></span>
           <h2>Despejá todas tus dudas por WhatsApp</h2>
           <p>11 7362 7698</p>
@@ -434,7 +434,7 @@
       </div>
     </footer>
 
-    <a href="https://api.whatsapp.com/send?phone=5491173627698" class="btn-wsp" target="_blank">
+    <a href="https://wa.link/weys41" class="btn-wsp" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
 

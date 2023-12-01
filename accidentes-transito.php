@@ -104,7 +104,7 @@
                 <div class="text-container">
                     <h1 class="animate__animated animate__fadeInDown">Asesoría gratuita</h1>
                     <p class="text-white">Expertos en resolución legal</p>
-                    <a class="btn btn-contact mt-5" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?');" role="button">¡Contáctanos ahora!</a>
+                    <a class="btn btn-contact mt-5" onclick="return gtag_report_conversion('https://wa.link/weys41');" role="button">¡Contáctanos ahora!</a>
                 </div>
                  <!-- Imagen para dispositivos grandes -->
                  <img src="img/accidente.webp" class=" img-accidente d-none d-md-block" alt="...">
@@ -120,7 +120,8 @@
         <h1 data-aos="fade-down" data-aos-duration="900">¿Te enfrentas a problemas legales tras un accidente automovilístico?</h1>
         <p>¡No te preocupes! Estamos aquí para ofrecerte <span class="text-bold">la mejor asesoría legal</span> con expertos en casos de accidente de tránsito.</p>
         <div>
-        <a class="btn btn-contact" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?');" role="button">Contáctanos</a>
+        <a class="btn btn-contact" onclick="return gtag_report_conversion('https://wa.link/weys41');" role="button">Contáctanos</a>
+</div>
     </section>
 
     <!--Banner Dinero-->
@@ -193,7 +194,7 @@
         </p>
         <p class="text-bold">Solo pagarás cuando obtengamos la compensación que mereces.</p>
         <div>
-            <a class="btn btn-contact" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?');" role="button">¡Contáctanos ahora!</a>
+            <a class="btn btn-contact" onclick="return gtag_report_conversion('https://wa.link/weys41');" role="button">¡Contáctanos ahora!</a>
         </div>
     </section>
 
@@ -239,7 +240,7 @@
         <img src="img/img-click.webp" alt="">
         <h1 data-aos="fade-down" data-aos-duration="900">¡La Mejor Asistencia Legal está a solo un clic de distancia!</h1>
         <div>
-            <a class="btn btn-contact" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+5491173627698&text=%C2%A1Hola!%20%F0%9F%91%8B%20Gracias%20por%20contactarnos%20en%20La%20Mejor%20Asistencia.%20Estamos%20aqu%C3%AD%20para%20ayudarte%20en%20todo%20lo%20relacionado%20con%20asesor%C3%ADa%20legal%20post-accidente.%20%C2%BFTienes%20preguntas,%20necesitas%20informaci%C3%B3n,%20o%20has%20tenido%20un%20percance%20y%20requieres%20nuestra%20ayuda?');" role="button">¡Contáctanos ahora!</a>
+            <a class="btn btn-contact" onclick="return gtag_report_conversion('https://wa.link/weys41');" role="button">¡Contáctanos ahora!</a>
         </div>
     </section>
 
@@ -388,7 +389,7 @@
       </div>
     </footer>
 
-    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5491173627698');" class="btn-wsp" target="_blank">
+    <a onclick="return gtag_report_conversion('https://wa.link/weys41');" class="btn-wsp" target="_blank">
         <i class="icon-whatsapp"></i>
     </a>
 
